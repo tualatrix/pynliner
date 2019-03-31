@@ -48,7 +48,7 @@ methods
 changelog
 =========
 
-0.8.0
+0.8.1
 -----
 
 - fix multiclass selector bug ( https://github.com/rennat/pynliner/pull/52 )
