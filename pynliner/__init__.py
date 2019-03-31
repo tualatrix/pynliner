@@ -246,7 +246,7 @@ class Pynliner(object):
                 "</style>",
                 "html.parser"
             )
-            target = self.soup.body or self.soup
+            target = self.soup.head or self.soup
             target.insert(0, style)
 
     def _apply_styles(self):
